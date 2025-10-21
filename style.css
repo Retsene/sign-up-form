@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#banner {
+  height: 966px;
+  flex-shrink: 0;
+}
+
+.sign-up {
+  margin: 100px 40px;
+  flex: 1;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #888888;
+}
+
+input {
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  padding: 0 4px;
+  width: 240px;
+  height: 24px;
+}
+.form-field {
+  flex: 0 0 40%;
+}

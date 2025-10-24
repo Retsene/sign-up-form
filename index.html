@@ -17,7 +17,7 @@
           obcaecati? Dicta, expedita quibusdam!
         </h2>
         <br />
-        <h2>Sex</h2>
+        <h2>lorem ipsum</h2>
 
         <form>
           <div class="form-field">
@@ -33,12 +33,22 @@
 
           <div class="form-field">
             <label for="email">EMAIL</label><br />
-            <input type="mail" id="email" name="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+            />
           </div>
 
           <div class="form-field">
             <label for="phone-number">PHONE NUMBER</label><br />
-            <input type="text" id="phone-number" name="phone-number" />
+            <input
+              type="text"
+              id="phone-number"
+              name="phone-number"
+              pattern="^[0-9]+"
+            />
           </div>
           <br />
 
@@ -55,8 +65,8 @@
               name="confirm-password"
             />
           </div>
+          <button type="submit">Create Account</button>
         </form>
-        <button id="create-account">Create Account</button>
         <div>Already have an account? <a href="">Log in</a></div>
       </div>
     </div>

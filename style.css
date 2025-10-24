@@ -16,18 +16,19 @@
 }
 
 .sign-up {
-  margin: 100px 40px;
+  margin: 100px 120px;
   flex: 1;
 }
 
 h2 {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 form {
-  margin-top: 80px;
   display: flex;
   flex-wrap: wrap;
+  gap: 12px 40px;
 }
 
 label {
@@ -37,12 +38,27 @@ label {
 }
 
 input {
-  border: 2px solid #dddddd;
+  border: 2px solid #e5e7eb;
   border-radius: 4px;
   padding: 0 4px;
   width: 240px;
   height: 24px;
 }
+
+input:invalid {
+  border: 2px solid red;
+  outline: none;
+}
+
 .form-field {
   flex: 0 0 40%;
+}
+
+button[type="submit"] {
+  background-color: brown;
+  padding: 12px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 8px;
+  width: 160px;
 }
